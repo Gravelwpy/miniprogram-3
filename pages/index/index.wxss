@@ -63,7 +63,7 @@
   display: block;
   margin: 5rpx;
   font: "宋体";
-  color: #08aeab;
+  color: #000000;
 }
 
 .main-swpier {

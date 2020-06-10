@@ -97,7 +97,6 @@ Page({
       var finishTime = new Date(value.time);    //年月日
       var currentTime = new Date();
       var remain = finishTime - currentTime;    //两个时间相减
-
       array[index].remainTime = Math.floor(remain/1000/60/60/24) + 1;
     });
 

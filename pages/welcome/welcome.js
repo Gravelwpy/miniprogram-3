@@ -8,7 +8,7 @@ Page({
   },
   start: function() {
     wx.reLaunch({
-      url: '/pages/index/index',
+      url: '/pages/index/index',//跳转
     })
   },
   onLoad: function(options) {

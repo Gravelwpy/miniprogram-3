@@ -2,7 +2,7 @@
 .container{
   display: flex;
   flex-direction: column;
-  background: rgb(17, 185, 236);
+  background: #CCCCCC;
   height: 1300rpx;
 }
 

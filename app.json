@@ -17,7 +17,8 @@
     {
       "root": "packageA",
       "pages": [
-        "pages/map/map"
+        "pages/map/map",
+        "pages/calendar/calendar"
       ]
     }
   ],

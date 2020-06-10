@@ -48,7 +48,7 @@ Page({
       {
         id: 'xl',
         name: '校历',
-        url: '/pages/calendar/calendar',
+        url: '/packageA/pages/calendar/calendar',
         needLogin: false
       },
     
