@@ -1,0 +1,5 @@
+<!--pages/info/info.wxml-->
+<notice-bar :scrollable="true" text="疫情期间，注意安全，戴好口罩，记得每日打卡哦!!!!!!!!!!!!!!!!!" left-icon="volume-o" />
+<panel title="标题" desc="描述信息" status="状态">
+  <div>内容</div>
+</panel>

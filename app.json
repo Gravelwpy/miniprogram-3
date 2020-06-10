@@ -1,0 +1,75 @@
+{
+  "usingComponents":{
+    "notice-bar":"/dist/notice-bar/index"
+  },
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/studyplan/studying/studying",
+    "pages/studyplan/addplan/addplan",
+    "pages/welcome/welcome",
+    "pages/location/location",
+    "pages/info/info",
+    "pages/logs/logs"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/map/map"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园疫情小助手",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于地图展示"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#4A6141",
+    "color": "#333",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index/main.png",
+        "selectedIconPath": "images/index/main1.png"
+      },
+      {
+        "pagePath": "pages/studyplan/studying/studying",
+        "text": "任务",
+        "iconPath": "images/index/daka.png",
+        "selectedIconPath": "images/index/daka1.png"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "text": "定位打卡",
+        "iconPath": "images/index/dingwei.png",
+        "selectedIconPath": "images/index/dingwei1.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "通知",
+        "iconPath": "images/index/tongzhi.png",
+        "selectedIconPath": "images/index/tongzhi1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/index/my.png",
+        "selectedIconPath": "images/index/my1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap94.json"
+}
